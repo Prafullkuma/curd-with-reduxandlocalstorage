@@ -1,11 +1,14 @@
+import React from 'react'
+import AddForm from './components/AddForm'
+import User from './components/User'
 
-function App() {
-
-  return (
-    <div className="App">
-      <h1>Counter-0</h1>
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+            <AddForm/>
+            <User/>
+        </div>
+    )
 }
 
-export default App;
+export default App
